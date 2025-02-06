@@ -1,0 +1,40 @@
+Prompt-1:
+        f"Generate a short email for the respondent named {name} based on their categorized "
+        f"concerns ({concerns_label}) and anything else ({anything_else_label}). Their response was: {response}"
+
+Prompt-2:
+
+        f"Please generate only the content of the email without any introductory text or explanation. "
+        f"Write a short, professional email to a respondent named {name}, addressing their concerns ({concerns_label}) and anything else ({anything_else_label}). "
+        f"Do not mention that the concerns have been categorized or labeled. "
+        f"Their response was: '{response}'. The labels correspond to the following categories: "
+        f"TC (Technical Concerns), AC (Academic Concerns), NC (No Concerns), and PC (Personal Concerns). "
+        f"Structure the email with a greeting, a concise response that directly addresses their concerns, and a polite closing."
+        f" Use the following format:\n\n"
+        f"Hello {name}!\n\n"
+        f"[Content addressing the respondent's concerns]\n\n"
+        f"Best regards,\n"
+        f"{professor_name}"  
+
+Prompt-3:
+        f"Generate the content of an email from a professor to a student named {name} in response to their survey submission. "
+        f"Do not include any introductory text or mention of labels. "
+        f"Their response was: '{response}'. "
+        f"Structure the email with a polite greeting, a supportive and direct response addressing the student's concerns, and a professional closing. "
+        f"Use the following format:\n\n"
+        f"Hello {name},\n\n"
+        f"[Supportive and direct content addressing the student's concerns]\n\n"
+        f"Best regards,\n"
+        f"{professor_name}"
+
+
+Prompt-4:
+        f"Generate a concise and professional email from a professor to a student named {name}, responding to their survey submission. "
+        f"Keep the content brief, supportive, and to the point. Do not include any introductory text or mention of labels. "
+        f"Their response was: '{response}'. "
+        f"Structure the email with a simple greeting, a direct response addressing the student's concerns, and a polite closing. "
+        f"Use the following format:\n\n"
+        f"Hello {name},\n\n"
+        f"[Concise content directly addressing the student's concerns]\n\n"
+        f"Best regards,\n"
+        f"{professor_name}"
